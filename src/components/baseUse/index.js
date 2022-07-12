@@ -3,6 +3,7 @@ import React from "react";
 // import JSXBaseDemo from './jsxBaseDemo'
 // import ConditionDemo from "./conditionDemo";
 import ListDemo from "./listDemo";
+import EventDemo from "./eventDemo";
 
 class BaseUse extends React.Component {
     constructor(props) {
@@ -12,7 +13,8 @@ class BaseUse extends React.Component {
         return <>
             {/* <JSXBaseDemo /> */}
             {/* <ConditionDemo /> */}
-            <ListDemo />
+            {/* <ListDemo /> */}
+            <EventDemo />
         </>
     }
 }
